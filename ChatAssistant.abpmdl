@@ -1,0 +1,101 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.3.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.3.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.3.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.3.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "9.3.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.3.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.3.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.3.2",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "ChatAssistant.Application": {
+      "path": "src/ChatAssistant.Application/ChatAssistant.Application.abppkg",
+      "folder": "src"
+    },
+    "ChatAssistant.Application.Tests": {
+      "path": "test/ChatAssistant.Application.Tests/ChatAssistant.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "ChatAssistant.Domain.Shared": {
+      "path": "src/ChatAssistant.Domain.Shared/ChatAssistant.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "ChatAssistant.Application.Contracts": {
+      "path": "src/ChatAssistant.Application.Contracts/ChatAssistant.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "ChatAssistant.HttpApi": {
+      "path": "src/ChatAssistant.HttpApi/ChatAssistant.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "ChatAssistant.HttpApi.Client": {
+      "path": "src/ChatAssistant.HttpApi.Client/ChatAssistant.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "ChatAssistant.EntityFrameworkCore.Tests": {
+      "path": "test/ChatAssistant.EntityFrameworkCore.Tests/ChatAssistant.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "ChatAssistant.EntityFrameworkCore": {
+      "path": "src/ChatAssistant.EntityFrameworkCore/ChatAssistant.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "ChatAssistant.TestBase": {
+      "path": "test/ChatAssistant.TestBase/ChatAssistant.TestBase.abppkg",
+      "folder": "test"
+    },
+    "ChatAssistant.Domain.Tests": {
+      "path": "test/ChatAssistant.Domain.Tests/ChatAssistant.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "ChatAssistant.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/ChatAssistant.HttpApi.Client.ConsoleTestApp/ChatAssistant.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "ChatAssistant.DbMigrator": {
+      "path": "src/ChatAssistant.DbMigrator/ChatAssistant.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "ChatAssistant.HttpApi.Host": {
+      "path": "src/ChatAssistant.HttpApi.Host/ChatAssistant.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "ChatAssistant.Domain": {
+      "path": "src/ChatAssistant.Domain/ChatAssistant.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
