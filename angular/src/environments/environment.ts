@@ -28,4 +28,5 @@ export const environment = {
       rootNamespace: 'AbpAccountPublic',
     },
   },
+  geminiApiKey: '',
 } as Environment;

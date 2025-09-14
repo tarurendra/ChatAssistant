@@ -1,0 +1,40 @@
+<div class="chat-container">
+  <div class="chat-header">
+    <h2>Building Codes Assistant</h2>
+  </div>
+  
+  <div class="chat-messages">
+    <div *ngFor="let message of messages" 
+         class="message"
+         [ngClass]="{'user-message': message.isUser, 'bot-message': !message.isUser}">
+      <div class="message-content">
+        <p>{{ message.text }}</p>
+        <small class="timestamp">{{ message.timestamp | date:'short' }}</small>
+      </div>
+    </div>
+    
+    <div *ngIf="isLoading" class="message bot-message">
+      <div class="message-content">
+        <p>Thinking...</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="chat-input">
+    <div class="input-container">
+      <textarea 
+        [(ngModel)]="currentMessage"
+        (keydown)="onKeyDown($event)"
+        placeholder="Ask me about building codes and construction..."
+        [disabled]="isLoading"
+        rows="3">
+      </textarea>
+      <button 
+        (click)="sendMessage()"
+        [disabled]="!currentMessage.trim() || isLoading"
+        class="send-button">
+        Send
+      </button>
+    </div>
+  </div>
+</div>

@@ -1,6 +1,11 @@
 {
-  "dependencies": {
-    "@google/genai": "^1.19.0",
-    "lucide-angular": "^0.544.0"
-  }
+  "name": "chat-assistant",
+  "version": "1.0.0",
+  "description": "Chat Assistant application with Angular frontend and .NET backend",
+  "scripts": {
+    "start": "cd angular && npm start",
+    "build": "cd angular && npm run build",
+    "test": "cd angular && npm test"
+  },
+  "private": true
 }

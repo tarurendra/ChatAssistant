@@ -23,8 +23,7 @@
       "@ngx-validate/core": ["node_modules/@ngx-validate/core"],
       "@ng-bootstrap/ng-bootstrap": ["node_modules/@ng-bootstrap/ng-bootstrap"]
     },
-    "useDefineForClassFields": false,
-    "ignoreDeprecations": "6.0"
+    "useDefineForClassFields": false
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false
