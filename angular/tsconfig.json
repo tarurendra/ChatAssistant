@@ -3,9 +3,6 @@
   "compileOnSave": false,
   "compilerOptions": {
     "jsx": "react",
-    "jsx": "react",
-    "jsx": "react",
-    "jsx": "react",
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
@@ -18,13 +15,13 @@
     "module": "es2020",
     "lib": ["es2018", "dom"],
     "paths": {
-      "@angular/*":["node_modules/@angular/*"],
-      "@abp/*":["node_modules/@abp/*"],
-      "@volo/*":["node_modules/@volo/*"],
-      "@volosoft/*":["node_modules/@volosoft/*"],
+      "@angular/*": ["node_modules/@angular/*"],
+      "@abp/*": ["node_modules/@abp/*"],
+      "@volo/*": ["node_modules/@volo/*"],
+      "@volosoft/*": ["node_modules/@volosoft/*"],
       "@swimlane/*": ["node_modules/@swimlane/*"],
-      "@ngx-validate/core":["node_modules/@ngx-validate/core"],
-      "@ng-bootstrap/ng-bootstrap": ["node_modules/@ng-bootstrap/ng-bootstrap"],
+      "@ngx-validate/core": ["node_modules/@ngx-validate/core"],
+      "@ng-bootstrap/ng-bootstrap": ["node_modules/@ng-bootstrap/ng-bootstrap"]
     },
     "useDefineForClassFields": false,
     "ignoreDeprecations": "6.0"

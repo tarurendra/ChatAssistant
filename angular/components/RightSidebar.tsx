@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { AdoptedCode } from '../types';
+import type { AdoptedCode } from '../src/types';
 import { CogIcon } from './icons';
 
 const adoptedCodesData: AdoptedCode[] = [
