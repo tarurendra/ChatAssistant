@@ -1,4 +1,5 @@
-import React, { useState, useRef, useEffect, useCallback } from 'react';
+import * as React from 'react';
+import { useState, useRef, useEffect, useCallback } from 'react';
 import type { Message as MessageType } from '../types';
 import { RobotIcon } from './icons';
 import Message from './Message';

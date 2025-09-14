@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { SearchIcon, BellIcon, ChatAlt2Icon, BriefcaseIcon } from './icons';
 
 const Header: React.FC = () => {

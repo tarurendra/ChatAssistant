@@ -1,12 +1,13 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { PaperclipIcon, MicrophoneIcon } from './icons';
+import * as React from 'react';
 
 interface ChatInputProps {
   onSendMessage: (text: string) => void;
   isLoading: boolean;
 }
 
-const ChatInput: React.FC<ChatInputProps> = ({ onSendMessage, isLoading }) => {
+const ChatInput = ({ onSendMessage, isLoading }: ChatInputProps) => {
   const [text, setText] = useState('');
 
   const handleSend = () => {

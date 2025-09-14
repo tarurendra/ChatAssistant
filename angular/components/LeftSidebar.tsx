@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { HamburgerIcon, HomeIcon, FolderIcon, ChatIcon, BookmarkIcon, UserCircleIcon } from './icons';
 
 const NavItem: React.FC<{ children: React.ReactNode; active?: boolean }> = ({ children, active }) => (

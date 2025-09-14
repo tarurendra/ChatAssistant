@@ -1,5 +1,5 @@
 
-import React from 'react';
+import * as React from 'react';
 
 export const RobotIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" {...props}>
